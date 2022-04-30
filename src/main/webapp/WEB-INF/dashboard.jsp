@@ -77,7 +77,7 @@
 				<div class="journalSearch p-2">
 					<div>
 						<h2 class="mx-3">Search All Journals</h2>
-						<input class="searchInput" placeholder="Under Construction">
+						<input class="searchInput" placeholder="Under Construction" name="keywords">
 					</div>
 					<div class="my-2 flex flex-end">
 						<button type="submit" class="btn btn-primary">Search</button>
