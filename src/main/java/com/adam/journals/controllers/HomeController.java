@@ -129,7 +129,7 @@ public class HomeController {
 			return "redirect:/";
 		}
 		Long userId = (Long) session.getAttribute("user_id");
-		List<Entry> entries = entryService.getEntriesByKeywords(userId);
+		List<Entry> entries = entryService.getEntriesByKeywords(userId, keywords);
 		model.addAttribute("entries", entries);
     	
     	return "show_entries.jsp";

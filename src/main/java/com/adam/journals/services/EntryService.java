@@ -41,12 +41,13 @@ public class EntryService {
     	return entryRepo.getEntriesByMonth(stringYear, stringMonth, stringUserId);
     }
     
-//    public List<Entry> getEntriesByKeywords(Long userID) {
-//    	
-//    	String stringUserId = String.valueOf(userID);
-//    	
-//    	return entryRepo.getEntriesByKeywords(stringUserId);
-//    }
+    public List<Entry> getEntriesByKeywords(Long userID, String keywords) {
+    	
+    	String stringUserId = String.valueOf(userID);
+    	System.out.println(keywords);
+    	
+    	return entryRepo.getEntriesByKeywords(stringUserId);
+    }
 	
 	//  ***Update***
 	
