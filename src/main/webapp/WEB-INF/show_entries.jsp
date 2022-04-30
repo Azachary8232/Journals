@@ -18,7 +18,7 @@
 <body style="background-color: black">
 	<div class="dashboardContainer py-5" style="background-image:url(<c:url value="/img/Bookshelf.jpg" />)">
 		<div>
-			<div class="flex flex-end">
+			<div class="flex flex-end hyperLink a">
 				<a href="/newEntry">New Entry</a>
 				<a class="mx-3 "href="/dashboard">Dashboard</a>
 				<a href="/logout">Logout</a>
