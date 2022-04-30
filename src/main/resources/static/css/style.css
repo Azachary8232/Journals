@@ -1,0 +1,221 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container2{
+    margin: auto;
+    width: 75%;
+}
+.container3{
+    margin-left: auto;
+    width: 40%;
+}
+.lego{
+    border: 1px solid black;
+}
+.border2{
+    border: 3px solid black;
+}
+.marginAuto{
+    margin: auto;
+}
+.marginTop{
+    margin-top: 25px;
+}
+.flex{
+display: flex;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex4{
+    flex: 4;
+}
+.flex5{
+    flex: 5;
+}
+.flex{
+    flex: 6;
+}
+.flex-end{
+    justify-content: end;
+}
+.spaceAround{
+    justify-content: space-around;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.spaceEvenly{
+    justify-content: space-evenly;
+}
+.textAlign{
+    text-align: center;
+}
+.alignCenter{
+	align-items: center;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inlineBlock{
+    display: inline-block;
+}
+.btn2{
+    box-shadow: 2px 3px black;
+    border: 3px solid black;
+}
+
+
+
+
+.bookshelf{
+	margin: auto;
+	height: 900px;
+}
+.dashboardContainer{
+	margin: auto;
+	width: 80%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.delete{
+	color: red;
+	border: none;
+	background: none;
+	font-weight: bold;
+}
+.formContainer{
+	margin-top: 50px;
+}
+.entry{
+	width: 50%;
+}
+.entry2{
+	margin-top: 58px;
+	margin-left: 25px;
+	width: 50%;
+}
+.entryTable{
+	width: 600px;
+	height: 250px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: tan;
+	overflow: auto;
+}
+.entryUpdate{
+	margin-left: 300px;
+}
+.entryUpdate a{
+    text-decoration: none;	
+    color: black;
+}
+.headData{
+	font-weight: bold;
+	border-bottom: 3px solid black;
+}
+.hyperLink a{
+	text-decoration: none
+}
+.journals{
+	width: 35px;
+	height: 150px;
+	border: 1px solid tan;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.journalsDisplay{
+	padding: 10px 10px 0px 10px;
+	width: 600px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: black;
+}
+.journalButton{
+	border: none;
+	background: none;
+	margin-top: 50px;
+	font-weight: bold;
+}
+.journalEntry{
+	height: auto;
+	overflow:auto;
+}
+.journalSearch{
+	width: 600px;
+	color: white;
+	margin: auto;
+	margin-top: 175px;
+	background-color: tan;
+}
+.navBar{
+	
+}
+.navBar a{
+	color: white;
+	font-weight: bold;
+}
+.newDate{
+	white-space: nowrap;
+}
+.newEntry{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.searchInput{
+	width: 100%;
+	height: 50px;
+}
+.select{
+	border: none;
+}
+.selectYear{
+	color: white;
+	font-size: 18pt;
+}
+.summary{
+	white-space: nowrap;
+}
+.table2{
+	overflow: auto;
+}
+.yearSelect{
+	margin-top: 75px;
+	margin-left: 350px;
+}
+.viewContainer{
+	height:900px;
+	margin-left: 25%;
+	margin-top: 25px;
+	padding-top: 125px;
+	padding-left: 150px;
+}
+.viewEntry{
+	width: 450px;
+	height: 600px;
+	margin-top: 25px;
+	overflow:auto;
+}
+.viewPage{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
