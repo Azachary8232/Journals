@@ -123,6 +123,18 @@ public class HomeController {
     	return "show_entries.jsp";
     }
     
+//    @GetMapping("/keyword")
+//    public String showEntriesKeyword(@RequestParam String keywords, HttpSession session, Model model) {
+//		if(session.getAttribute("user_id") == null) {
+//			return "redirect:/";
+//		}
+//		Long userId = (Long) session.getAttribute("user_id");
+//		List<Entry> entries = entryService.getEntriesByKeywords(userId);
+//		model.addAttribute("entries", entries);
+//    	
+//    	return "show_entries.jsp";
+//    }
+    
 //    		View Entry Page
     
     @GetMapping("/view/{id}")

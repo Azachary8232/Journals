@@ -60,7 +60,8 @@
 					</div>
 					</form:form>
 				</div>
-				<div class="flex flex-end">
+				<div class="flex spaceBetween mx-3 hyperLink a">
+					<a class="delete" href="/dashboard">Cancel</a>
 					<form action="/delete/${editEntry.id}" method="post">
 						<input type="hidden" name="_method" value="delete">
 						<input type="submit" value="Delete Entry" class="delete">

@@ -40,6 +40,13 @@ public class EntryService {
     	
     	return entryRepo.getEntriesByMonth(stringYear, stringMonth, stringUserId);
     }
+    
+//    public List<Entry> getEntriesByKeywords(Long userID) {
+//    	
+//    	String stringUserId = String.valueOf(userID);
+//    	
+//    	return entryRepo.getEntriesByKeywords(stringUserId);
+//    }
 	
 	//  ***Update***
 	
