@@ -128,6 +128,7 @@ public class HomeController {
 		if(session.getAttribute("user_id") == null) {
 			return "redirect:/";
 		}
+		
 		Long userId = (Long) session.getAttribute("user_id");
 		List<Entry> entries = entryService.getEntriesByKeywords(userId, keywords);
 		model.addAttribute("entries", entries);

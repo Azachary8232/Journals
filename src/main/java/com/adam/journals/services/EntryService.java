@@ -42,11 +42,26 @@ public class EntryService {
     }
     
     public List<Entry> getEntriesByKeywords(Long userID, String keywords) {
-    	
     	String stringUserId = String.valueOf(userID);
+//    	String querySearch = "SELECT * FROM entries WHERE user_id = " + userID +  " AND entry LIKE ";
+    
+        String querySearch = "%";
+        
+        for( int i = 0; i < keywords.length(); i++){
+            char check = keywords.charAt(i);
+            if( Character.isWhitespace(check)) {
+                querySearch += "% OR entry LIKE %";
+            }
+            else{
+                querySearch += check ;
+            }
+        }
+        querySearch += "%";
+
     	System.out.println(keywords);
+    	System.out.println(querySearch);
     	
-    	return entryRepo.getEntriesByKeywords(stringUserId);
+    	return entryRepo.getEntriesByKeywords(stringUserId, querySearch);
     }
 	
 	//  ***Update***

@@ -19,8 +19,8 @@ public interface EntryRepository extends CrudRepository<Entry, Long>{
 	@Query(value="SELECT * FROM entries WHERE user_id = :userId AND year(entry_date) = :year AND month(entry_date) = :month ORDER BY entry_date asc", nativeQuery=true)
 	List<Entry> getEntriesByMonth(String year, String month, String userId);
 	
-	@Query(value="SELECT * FROM entries WHERE user_id = :userId", nativeQuery=true)
-	List<Entry> getEntriesByKeywords(String userId);
+	@Query(value="SELECT * FROM entries WHERE user_id = :userId AND entry LIKE :querySearch", nativeQuery=true)
+	List<Entry> getEntriesByKeywords(String userId, String querySearch);
 
 //  ***Update***
 
